@@ -10,7 +10,12 @@ class Forest
         $this->populate();
     }
 
-    protected function populate()
+    protected function populate(){
+        
+    }
+
+
+    /*protected function populate()
     {
         $classes = get_declared_classes();
         $is_ok = false;
@@ -31,6 +36,6 @@ class Forest
                 }
         }
 
-    }
+    }*/
     
 }
