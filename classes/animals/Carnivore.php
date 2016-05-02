@@ -1,4 +1,4 @@
 <?php
-class Carnivore extends Animal {
+abstract class Carnivore extends Animal {
     protected $type = 'carnivore';
 }

@@ -1,16 +1,19 @@
 <?php
-class Plant {
+abstract class Plant {
     protected $size;
     protected $type;
     protected $subtype;
+    protected $super_type = "plant";
     
-    protected function getInfo(){
+    public function getInfo(){
         $result = [
             'size' => $this->size,
             'type' => $this->type,
-            'subtype' => $this->subtype
+            'subtype' => $this->subtype,
+            'super_type' => $this->super_type
         ];
         
         return $result;
     }
+
 }

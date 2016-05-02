@@ -1,4 +1,4 @@
 <?php
-class Tree extends Plant {
+abstract class Tree extends Plant {
     protected $type = "tree";
 }
